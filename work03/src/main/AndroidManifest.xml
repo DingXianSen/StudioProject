@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.dc.work3">
+
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <!--可以设置默认启动界面，看intent-filter在那个activity中-->
+        <!--默认主页面<activity android:name=".MainActivity">-->
+        <!--ActivityArrayadapter    适配器       MainSecondActivity   下拉框-->
+        <activity android:name=".ActivityArrayadapter">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--复选框的-->
+        <activity android:name=".MainActivity2s"></activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?><!--LinearLayout 线性布局方式-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="10dp"
+    android:weightSum="1">
+
+    <!--设置显示文本为居中对齐、设置颜色为#fff000-->
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="这里是显示的内容!"
+
+        android:textColor="#00ffff"
+        android:textSize="23sp" />
+    <!--给该按钮一个点击事件，吐司-->
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点我进入第二个界面" />
+
+    <!--Edit Text控件-->
+    <!--最大行数为2，当输入的内容超过两行时，文本会向上滚动，Edit Text不会拉伸-->
+    <!--android:maxLines="2"，如果没有这句话时文本框会随着内容的大小而该改变宽度-->
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请在这里输入内容"
+        android:maxLines="2" />
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点我拿到EditText中的值" />
+
+
+    <!--Image View显示图片的控件-->
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+        android:src="@drawable/fsdf" />
+
+
+    <!--进度条-->
+    <!--下面的进度条是长条形状的-->
+    <!--style="?android:attr/progressBarStyleHorizontal" android:max="100"-->
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/button_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="点我关闭此页面"/>
+
+</LinearLayout>

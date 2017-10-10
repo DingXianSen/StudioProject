@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_accelerated="true">
+        <shape>
+            <corners android:bottomLeftRadius="8dp"
+                android:topLeftRadius="8dp"
+                />
+        </shape>
+    </item>
+
+    <item android:state_accelerated="false">
+        <shape>
+            <corners android:bottomLeftRadius="8dp"
+                android:topLeftRadius="8dp"/>
+        </shape>
+    </item>
+</selector>

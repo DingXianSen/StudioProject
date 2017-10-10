@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_bg"
+        android:paddingTop="10dp">
+
+        <!--<ImageView-->
+        <!--android:id="@+id/image"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:background="@drawable/photo_bg"-->
+        <!--android:scaleType="centerInside"-->
+        <!--android:src="@mipmap/photo" />-->
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="61dp"
+            android:layout_height="61dp"
+            android:scaleType="fitCenter"
+            android:layout_margin="3dp"
+            android:src="@mipmap/photo" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="61dp"
+            android:layout_height="61dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/tv_bg" />
+        <!--<TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp" />-->
+        <!--<TextView-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:background="@drawable/tv_bg"/>-->
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/text"
+            android:text="姓名" />
+
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_toRightOf="@+id/text"
+            android:text="年龄" />
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/age"
+            android:layout_toRightOf="@+id/text"
+            android:text="文本信息" />
+    </RelativeLayout>
+</LinearLayout>

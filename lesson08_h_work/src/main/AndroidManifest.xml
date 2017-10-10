@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dc.lesson08_h_work">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--A-->
+        <activity android:name=".AActivity">
+            <!--隐式启动-->
+            <intent-filter>
+                <!--也可以使用系统的-->
+                <action android:name="android.intent.action.VIEW"/>
+                <!--<action android:name="com.dc.lesson08_h_work.action.x1" />-->
+                <action android:name="com.dc.lesson08_h_work.action.x2" />
+
+                <!--必须要有default-->
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.dc.lesson08_h_work.category.c1" />
+                <category android:name="com.dc.lesson08_h_work.category.c2" />
+
+                <data android:scheme="http" />
+            </intent-filter>
+
+        </activity>
+
+
+        <!--B-->
+        <activity android:name=".BActivity">
+            <intent-filter>
+                <action android:name="com.dc.lesson08_h_work.action.x1" />
+                <action android:name="com.dc.lesson08_h_work.action.x3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.dc.lesson08_h_work.category.c1" />
+                <category android:name="com.dc.lesson08_h_work.category.c3" />
+
+                <data android:scheme="file" />
+            </intent-filter>
+        </activity>
+
+
+        <!--C-->
+        <activity android:name=".CActivity">
+            <intent-filter>
+                <action android:name="com.dc.lesson08_h_work.action.x2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.dc.lesson08_h_work.category.c2" />
+
+                <data
+                    android:mimeType="audio/*"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

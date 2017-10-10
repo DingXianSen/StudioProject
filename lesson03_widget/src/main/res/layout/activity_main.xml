@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dc.lesson03_widget.MainActivity">
+
+    <!--android:singleLine="true"单行显示-->
+    <!--android:lines="3"显示3行-->
+    <!--android:maxLines="3"最大显示3行，有收缩性-->
+    <!--android:drawableLeft="@mipmap/ic_launcher" 在左边显示图片-->
+    <!--android:drawablePadding="20dp" 图片和文字的间距-->
+    <TextView
+        android:id="@+id/text_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:drawablePadding="20dp"
+        android:text="Hello World!ffffffffffffffffffffffffffffffffffffffffff"
+        android:textColor="#f00"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+     <Button
+         android:id="@+id/button_1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="点我"
+         android:textSize="20sp"
+         android:onClick="onClick"/>
+
+
+    <EditText
+        android:id="@+id/edittext_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="11"
+        android:enabled="true"
+        android:hint="请输入手机号！"
+        />
+    <EditText
+        android:id="@+id/edittext_2"
+        android:hint="请输入密码！"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#f00"
+        android:textColorHighlight="#a00000ff"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:inputType="textPassword"
+        />
+    <!-- android:button="@null"没有任何效果-->
+    <CheckBox
+        android:id="@+id/checkbox_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="刘会为是不是智障"
+        android:checked="true"
+       />
+</LinearLayout>

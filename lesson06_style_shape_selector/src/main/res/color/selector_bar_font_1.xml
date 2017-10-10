@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!--未选中时是灰色-->
+    <!--按下时是红色-->
+    <!--选中时是蓝色-->
+    <!--注意，一定要注意位置顺序，谁在前边用谁-->
+    <!--范围大，在下边，能力小，在上边-->
+    <!--如果红色非要在下边时 android:state_pressed="false" 前边两项都加上-->
+
+    <item android:color="#ddd" android:state_checked="false" android:state_pressed="false"/>
+
+    <item android:color="#02a1e0" android:state_checked="true" android:state_pressed="false"/>
+    <item android:color="#f00" android:state_pressed="true"/>
+</selector>

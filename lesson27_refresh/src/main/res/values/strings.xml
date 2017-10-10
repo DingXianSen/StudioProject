@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lesson27_refresh</string>
+    <string-array name="footer">
+        <item>0,25,50,25</item>
+        <item>25,0,25,50</item>
+    </string-array>
+</resources>

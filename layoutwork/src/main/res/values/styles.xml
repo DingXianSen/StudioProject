@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--第一种样式-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--去除标题栏-->
+        <item name="windowNoTitle">true</item>
+        <!--去掉标题栏-->
+        <item name="windowActionBar">false</item>
+
+        <!--上部背景颜色-->
+        <item name="top_bg">#00ccff</item>
+        <!--消息的颜色-->
+        <item name="font">#00ccff</item>
+
+        <!--下部分背景-->
+        <item name="bom_bg">#fff</item>
+
+        <!--夜间模式字体-->
+        <item name="ye_font">#cdcdcd</item>
+    </style>
+
+
+
+    <!--第二种样式-->
+    <style name="AppTheme_Night" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--去除标题栏-->
+        <item name="windowNoTitle">true</item>
+        <!--去掉标题栏-->
+        <item name="windowActionBar">false</item>
+
+        <!--上部背景颜色-->
+        <item name="top_bg">#000099</item>
+        <!--消息的颜色-->
+        <item name="font">#000099</item>
+
+        <!--下部分背景-->
+        <item name="bom_bg">#003366</item>
+
+        <!--夜间模式字体-->
+        <item name="ye_font">#fff</item>
+    </style>
+
+    <style name="top_bt">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

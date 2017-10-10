@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <!-- 没有指定圆形ImageView属性时，默认没有外边圆颜色 -->
+    <!-- 需要将图片资源自定为src ，或在程序中setImageResource(res) 不能设置background为图片，这样不能达到圆形效果-->
+    <com.example.module_roundedimageview.RoundImageView
+        android:id="@+id/img1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/img"
+        />
+    <!-- border_outside_color 外部圆圈的颜色 -->
+    <!-- border_inside_color 内部部圆圈的颜色 -->
+    <!-- border_thickness 外圆和内圆的宽度 -->
+    <com.example.module_roundedimageview.RoundImageView
+        android:id="@+id/img2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/img"
+        imagecontrol:border_thickness="1dp"
+        imagecontrol:border_inside_color="#bc0978"
+        imagecontrol:border_outside_color="#ba3456"
+        />
+    <!--如果想要控件有边框，就添加这两条属性-->
+    <!--
+        imagecontrol:border_inside_color="#bc0978"
+        imagecontrol:border_outside_color="#ba3456"-->
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点我切换图片"/>
+</LinearLayout>

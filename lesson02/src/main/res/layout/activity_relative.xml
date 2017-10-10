@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/f1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#f00" />
+
+    <!-- android:layout_toRightOf="@id/f1" 表示在id为f1的右边-->
+    <!--android:layout_above="@+id/f3"需要注意的是：要先创建idf3，因为xml文件是逐行解析的-->
+    <FrameLayout
+        android:id="@+id/f2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/f3"
+        android:layout_toRightOf="@id/f1"
+        android:background="#ff0" />
+
+
+    <!--  android:layout_centerInParent="true" 表示在父容器的中心-->
+    <FrameLayout
+        android:id="@id/f3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="#0ff" />
+
+
+    <!--沿着f3左对齐和下对齐，当然可以根据各种情况对齐-->
+    <FrameLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/f3"
+        android:layout_alignLeft="@id/f3"
+        android:background="@color/colorAccent" />
+
+    <!--让其显示在父容器的底边对齐,且在中心-->
+    <FrameLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

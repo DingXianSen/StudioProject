@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--按照中心的位置排布android:gravity="center"-->
+<!--排列方向 orientation horizontal横向-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <!--权重android:layout_weight="1"，可以用来搜索框和搜索图标-->
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="#f00"
+        android:layout_weight="2"/>
+
+    <!--权重综合为2，每个为1，平均大小-->
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="#0f0"
+        android:layout_weight="1"/>
+
+    <!--<FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#00f" />-->
+
+</LinearLayout>

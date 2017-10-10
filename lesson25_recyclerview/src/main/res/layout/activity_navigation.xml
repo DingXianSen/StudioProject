@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.NavigationView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:headerLayout="@layout/layout_header"
+    app:menu="@menu/menu_nv"
+    app:itemIconTint="@color/selector_nv_item"
+    app:itemTextColor="@color/selector_nv_item"
+    android:background="#0000">
+    <!--app:itemTextColor="@color/selector_nv_item"字体-->
+    <!--app:itemIconTint="@color/selector_nv_item"图标着色-->
+    <!--app:menu=""添加菜单-->
+<!--headerLayout引用的是一个新的布局-->
+</android.support.design.widget.NavigationView>

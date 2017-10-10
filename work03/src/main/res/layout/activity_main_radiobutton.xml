@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--默认竖向排列，可以设置为横向-->
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--如果想两个在分布在两侧时，可以之设置一个的权重，就可以实现-->
+        <!--默认选中 android:checked="true",但是会有问题，如果没有id的时候，默认选中的会一直选中，其他的可选-->
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="a"
+            android:checked="true"/>
+
+        <!--分割线-->
+        <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1px"-->
+        <!--android:background="#cdcdcd"/>-->
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="b"/>
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="c"/>
+    </RadioGroup>
+
+    <!--默认缩放：自适应  android:scaleType="fitCenter"-->
+    <!--center不缩放，显示在中心-->
+    <!--如果是小图片，不进行缩放，会在中心显示，如果是大的图片，会进行缩放android:scaleType="centerInside"-->
+    <!--按照左上角对齐，android:scaleType="matrix"-->
+    <!--如果要想不管图片多大，都不让其显示边框 android:adjustViewBounds="true"-->
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:adjustViewBounds="true"
+        android:background="#ddd"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:background="#0ff"/>
+    
+    <!---->
+    <!--<view-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"/>-->
+    
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/entries"/>
+
+</LinearLayout>

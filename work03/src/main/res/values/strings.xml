@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Work3</string>
+
+
+    <string-array name="entries">
+        <item>aaa</item>
+        <item>bbb</item>
+        <item>ccc</item>
+        <item>ddd</item>
+        <item>eee</item>
+        <item>fff</item>
+    </string-array>
+</resources>

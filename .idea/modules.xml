@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/StudioProject.iml" filepath="$PROJECT_DIR$/StudioProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson14_listview_json/lesson14_listview_json.iml" filepath="$PROJECT_DIR$/lesson14_listview_json/lesson14_listview_json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson15_contentprovider/lesson15_contentprovider.iml" filepath="$PROJECT_DIR$/lesson15_contentprovider/lesson15_contentprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson17_fragment/lesson17_fragment.iml" filepath="$PROJECT_DIR$/lesson17_fragment/lesson17_fragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson18_viewpager/lesson18_viewpager.iml" filepath="$PROJECT_DIR$/lesson18_viewpager/lesson18_viewpager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson20_handler/lesson20_handler.iml" filepath="$PROJECT_DIR$/lesson20_handler/lesson20_handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson21_actionbar/lesson21_actionbar.iml" filepath="$PROJECT_DIR$/lesson21_actionbar/lesson21_actionbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson24_service/lesson24_service.iml" filepath="$PROJECT_DIR$/lesson24_service/lesson24_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson25_recyclerview/lesson25_recyclerview.iml" filepath="$PROJECT_DIR$/lesson25_recyclerview/lesson25_recyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson26_webview/lesson26_webview.iml" filepath="$PROJECT_DIR$/lesson26_webview/lesson26_webview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson27_refresh/lesson27_refresh.iml" filepath="$PROJECT_DIR$/lesson27_refresh/lesson27_refresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson28_xutils3/lesson28_xutils3.iml" filepath="$PROJECT_DIR$/lesson28_xutils3/lesson28_xutils3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson29_baidumap/lesson29_baidumap.iml" filepath="$PROJECT_DIR$/lesson29_baidumap/lesson29_baidumap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson30_drowview/lesson30_drowview.iml" filepath="$PROJECT_DIR$/lesson30_drowview/lesson30_drowview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson31_view_size_location/lesson31_view_size_location.iml" filepath="$PROJECT_DIR$/lesson31_view_size_location/lesson31_view_size_location.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson33_okhttp3/lesson33_okhttp3.iml" filepath="$PROJECT_DIR$/lesson33_okhttp3/lesson33_okhttp3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson34_fresco/lesson34_fresco.iml" filepath="$PROJECT_DIR$/lesson34_fresco/lesson34_fresco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson35_media/lesson35_media.iml" filepath="$PROJECT_DIR$/lesson35_media/lesson35_media.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson36_jpush/lesson36_jpush.iml" filepath="$PROJECT_DIR$/lesson36_jpush/lesson36_jpush.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson37_share/lesson37_share.iml" filepath="$PROJECT_DIR$/lesson37_share/lesson37_share.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson38_crypto/lesson38_crypto.iml" filepath="$PROJECT_DIR$/lesson38_crypto/lesson38_crypto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson39_other_jar/lesson39_other_jar.iml" filepath="$PROJECT_DIR$/lesson39_other_jar/lesson39_other_jar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson40_pay/lesson40_pay.iml" filepath="$PROJECT_DIR$/lesson40_pay/lesson40_pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson40_pay2/lesson40_pay2.iml" filepath="$PROJECT_DIR$/lesson40_pay2/lesson40_pay2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/login/login.iml" filepath="$PROJECT_DIR$/login/login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ptr-lib/ptr-lib.iml" filepath="$PROJECT_DIR$/ptr-lib/ptr-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work07/work07.iml" filepath="$PROJECT_DIR$/work07/work07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work14/work14.iml" filepath="$PROJECT_DIR$/work14/work14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work16/work16.iml" filepath="$PROJECT_DIR$/work16/work16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work18_2/work18_2.iml" filepath="$PROJECT_DIR$/work18_2/work18_2.iml" />
+    </modules>
+  </component>
+</project>

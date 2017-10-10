@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/aaaa"
+            android:checked="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="aaaaaaaaaaaa" />
+        <item
+            android:id="@+id/bbbb"
+            android:icon="@mipmap/ic_launcher"
+            android:title="bbbbbbbbbbbb" />
+    </group>
+    <item
+        android:id="@+id/dddd"
+        android:icon="@mipmap/ic_launcher"
+        android:title="dddddddddddd" />
+    <item
+        android:id="@+id/cccc"
+        android:icon="@mipmap/ic_launcher"
+        android:title="cccccccccccc">
+        <menu>
+            <item
+                android:id="@+id/aaaa_1"
+                android:checked="true"
+                android:icon="@mipmap/ic_launcher"
+                android:title="aaaaaaaaaaaa" />
+            <item
+                android:id="@+id/bbbb_1"
+                android:icon="@mipmap/ic_launcher"
+                android:title="bbbbbbbbbbbb" />
+        </menu>
+    </item>
+
+</menu>

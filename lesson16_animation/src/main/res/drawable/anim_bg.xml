@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--android:oneshot="true"只播放一次-->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@mipmap/a" android:duration="500"/>
+    <item android:drawable="@mipmap/b" android:duration="500"/>
+    <item android:drawable="@mipmap/c" android:duration="500"/>
+    <item android:drawable="@mipmap/d" android:duration="500"/>
+    <item android:drawable="@mipmap/e" android:duration="500"/>
+    <item android:drawable="@mipmap/f" android:duration="500"/>
+</animation-list>

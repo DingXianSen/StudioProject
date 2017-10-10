@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.lesson17_fragment.MainActivity">
+    <!--<Button-->
+    <!--android:id="@+id/bt"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="点击"/>-->
+    <!--因为是碎片，所以可以拼-->
+
+    <!--android:tag="任意字符串"-->
+    <!--静态fragment-->
+    <!--<fragment-->
+    <!--android:id="@+id/fragment1"-->
+    <!--android:name="com.example.lesson17_fragment.Fragment1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Hello World!" />-->
+    <!--容器-->
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rg">
+
+    </FrameLayout>
+
+    <!--动态-->
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/message"
+            style="@style/rb"
+            android:checked="true"
+            android:drawableTop="@drawable/selector_bar_1"
+            android:text="消息" />
+
+        <RadioButton
+            android:id="@+id/constact"
+            style="@style/rb"
+            android:drawableTop="@drawable/selector_bar_2"
+            android:text="联系人" />
+
+        <RadioButton
+            android:id="@+id/active"
+            style="@style/rb"
+            android:drawableTop="@drawable/selector_bar_3"
+            android:text="动态" />
+    </RadioGroup>
+
+</RelativeLayout>

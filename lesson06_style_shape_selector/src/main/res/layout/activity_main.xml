@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <CheckBox
+        android:id="@+id/cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="夜间模式"/>
+
+    <CheckBox
+        android:id="@+id/mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/cb"
+        android:text="其它模式" />
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Hello World!" />-->
+
+    <!-- android:button="@null" 单选按钮的圆圈去掉-->
+    <!--android:background="@android:color/transparent" 透明色-->
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="?attr/bg">
+        <!--style引用的是自定义的-->.<!--style="@style/bottom_bar_rb"-->
+        <RadioButton
+            android:id="@+id/rb1"
+            style="@style/bottom_bar_rb"
+            android:drawableTop="@drawable/selector_bar_1"
+            android:text="消息"
+            />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            style="@style/bottom_bar_rb"
+            android:drawableTop="@drawable/selector_bar_2"
+            android:text="联系人" />
+
+        <RadioButton
+            android:id="@+id/rb3"
+            style="@style/bottom_bar_rb"
+            android:drawableTop="@drawable/selector_bar_3"
+            android:text="动态" />
+    </RadioGroup>
+</RelativeLayout>

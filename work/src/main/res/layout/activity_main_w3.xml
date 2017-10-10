@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <!--图片的布局-->
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher" />
+        <FrameLayout
+            android:layout_width="211dp"
+            android:layout_height="150dp"
+            android:layout_gravity="right">
+
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="100dp"
+                android:gravity="bottom|center"
+                android:text="的确"
+                android:textColor="#f00"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="bottom"
+                android:text="本人电话 1801019999"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:gravity="bottom|center"
+                android:text="楼上有点傻"
+                android:textSize="20sp" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <!--权重android:layout_weight="1"，可以用来搜索框和搜索图标-->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:background="#00ffff"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="点赞"
+                android:layout_marginTop="10dp"
+                android:textSize="25sp"
+                android:textAlignment="gravity"/>
+        </FrameLayout>
+        <!--权重综合为2，每个为1，平均大小-->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:background="#0f0"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="死"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="165dp"
+                android:textAlignment="gravity"/>
+        </FrameLayout>
+        </LinearLayout>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="点我进入第三个作业"/>
+</LinearLayout>

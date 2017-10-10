@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.lesson40_pay.MainActivity">
+
+    <!--tag对应的-->
+    <Button
+        android:id="@+id/alipay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCick"
+        android:tag="12"
+        android:text="支付宝支付" />
+
+    <Button
+        android:id="@+id/wxpay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCick"
+        android:tag="1310"
+        android:text="微信插件支付" />
+    <Button
+        android:id="@+id/wxwappay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCick"
+        android:tag="13"
+        android:text="微信网页支付" />
+
+    <Button
+        android:id="@+id/qqpay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCick"
+        android:tag="25"
+        android:text="QQ钱包" />
+</LinearLayout>

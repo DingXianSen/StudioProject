@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--在Table Layout中控件可以不指定宽高-->
+<!--android:stretchColumns="0,1" 表示拉伸第0列和第1列-->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="0,1,2,3,4,5"
+    android:stretchColumns="0,1">
+    <!-- android:stretchColumns="0,1" 表示拉伸
+    android:shrinkColumns="0,1,2,3,4,5"表示收缩-->
+
+    <TableRow>
+
+        <!--只能跨列，不能跨行,让其跨2列-->
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#f00"
+            android:layout_span="2"/>
+
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#0f0" />
+        <!--没有拉伸的列保持原大小，拉伸的列会平分-->
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#00f" />
+    </TableRow>
+
+    <!--每一个Table Row都是一列，如果超出，将不会在拉伸-->
+    <TableRow>
+
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#00f" />
+
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#f00" />
+        <!--没有拉伸的列保持原大小，拉伸的列会平分-->
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#0f0" />
+
+
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#f00" />
+
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#0f0" />
+    </TableRow>
+</TableLayout>

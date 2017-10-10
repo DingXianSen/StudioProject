@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--注意不能和已有的重名，不会会有异常-->
+    <!--格式为引用-->
+    <attr name="radioButtonStyle" format="reference"/>
+</resources>

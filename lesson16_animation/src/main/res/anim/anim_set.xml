@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="2000"
+    android:repeatMode="reverse">
+    <!--android:duration="2000"间隔时间-->
+    <!--android:repeatMode="reverse"重复次数为反向-->
+
+    <rotate
+        android:fromDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:repeatCount="4"
+        android:toDegrees="720" />
+    <!--平移-->
+    <!--android:repeatCount="4"重复次数-->
+    <translate
+        android:fromXDelta="0"
+        android:repeatCount="4"
+        android:toXDelta="100%p" />
+</set>

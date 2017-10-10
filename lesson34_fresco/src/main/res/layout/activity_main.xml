@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lesson34_fresco.MainActivity">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdv"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:onClick="onClick"
+        app:fadeDuration="300"
+        app:failureImage="@mipmap/ic_launcher"
+        app:failureImageScaleType="centerInside"
+        app:placeholderImage="@mipmap/ic_launcher"
+        app:placeholderImageScaleType="centerCrop"
+        app:progressBarImage="@mipmap/aaaa"
+        app:progressBarImageScaleType="centerCrop"
+
+        app:roundAsCircle="true"
+
+        app:roundingBorderWidth="2dp"
+        app:roundingBorderColor="#ff0000"
+        />
+    <!--app:roundingBorderWidth="2dp"
+        app:roundingBorderColor="#ff0000"红色边框-->
+    <!--app:roundAsCircle="true"圆形图片-->
+    <!--app:overlayImage="@color/colorAccent"覆盖色-->
+    <!--app:fadeDuration="300"淡入淡出的时间-->
+    <!--app:placeholderImage="@mipmap/ic_launcher"占位图-->
+    <!--app:failureImage="@mipmap/ic_launcher"加载失败后的图片-->
+</LinearLayout>

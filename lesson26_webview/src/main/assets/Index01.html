@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            <!--基本选则器-->
+            //使h1标签变红色
+             $("h1").css("color","red");//测试成功
+            //测试类为abc的
+            $(".abc").css("color","red");//测试成功
+            //测试id选择器
+            $("#abcd").css("color","red");//测试成功，注意id选择器只能有一个id，不能有多个#abcd
+            //并集选择器
+            //$(".abc,#abcd").css("color","red");//测试成功
+            //测试交集
+            //$("ul .abc").css("color","red");//测试成功
+            <!--层次选择器-->
+            //后待选择器
+            //  $("ul #abcd").css("color", "red"); //测试成功，ul下边的id为abcd的改变
+            //子选择器
+            //  $("p>span").css("color", "yellow");//测试成功，p标签下的span标签变色，h1下的span标签也属于p标签，但是这表示的是p标签下子span标签
+            //相邻选择器
+            //$("h1+ul").css("color","red");//测试成功
+            //同辈元素选择器
+            // $("h1~ul").css("color", "red");//测试成功
+
+            <!--属性选择器-->
+                $("[id='abcd']").css("color","red");
+
+        })
+    </script>
+</head>
+<body>
+<!--p标签中包含span标签和h1标签，同时h1标签中包含span标签-->
+<p>
+    p标签中span<span>包含</span>
+
+<h1>这是<span>标签</span></h1>
+</p>
+
+
+<h1>请<span>回答</span>问题</h1>
+
+<h2><span>回答问题</span></h2>
+<ul>
+    <li class="abc ">AAAAA</li>
+    <li id="abcd">BBBBB</li>
+    <li class="abc">CCCCC</li>
+    <li>DDDDD</li>
+</ul>
+<div class="1">
+    <div class="2">
+        <ul>
+            <li class="abc ">AAAAA</li>
+            <li id="abcde">BBBBB</li>
+            <li class="abc">CCCCC</li>
+            <li>DDDDD</li>
+        </ul>
+    </div>
+    <div class="3">
+        <ul>
+            <li class="abc ">AAAAA</li>
+            <li id="abcdef">BBBBB</li>
+            <li class="abc">CCCCC</li>
+            <li>DDDDD</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--无actionbar-->
+        <item name="windowActionBar">false</item>
+        <!--取消状态栏,也就是全屏显示-->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <!--需要注意的是，不能有空格，值不用引号-->
+    <style name="bottom_bar_rb">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/selector_bar_font_1</item>
+    </style>
+</resources>

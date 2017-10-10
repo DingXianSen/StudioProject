@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context="com.dc.work09.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0099FF"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/ivnick"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/photo_bg"
+            android:scaleType="centerInside"
+            android:src="@mipmap/photo" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/photourl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="输入要加载的图片地址" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_bg"
+        android:text="加载" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="加载进度：" />
+        <!--style="?android:attr/progressBarStyleHorizontal"-->
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/progressbar_style"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="20"
+            android:progress="5"
+            android:maxHeight="5dp"
+            android:minHeight="6dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="50dp"
+        android:src="@mipmap/tt"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- android:button="@null" 单选按钮的圆圈去掉-->
+        <!--android:background="@android:color/transparent" 透明色-->
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/transparent">
+            <!--style引用的是自定义的-->.<!--style="@style/bottom_bar_rb"-->
+            <RadioButton
+                android:id="@+id/rb1"
+                style="@style/bottom_bar_rb"
+                android:drawableTop="@drawable/selector_bar_1"
+                android:text="消息"
+                />
+
+            <RadioButton
+                android:id="@+id/rb2"
+                style="@style/bottom_bar_rb"
+                android:drawableTop="@drawable/selector_bar_2"
+                android:text="联系人" />
+
+            <RadioButton
+                android:id="@+id/rb3"
+                style="@style/bottom_bar_rb"
+                android:drawableTop="@drawable/selector_bar_3"
+                android:text="动态" />
+        </RadioGroup>
+    </RelativeLayout>
+
+</LinearLayout>

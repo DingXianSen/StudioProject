@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--所有的android：的都在 xmlns:android="http://schemas.android.com/apk/res/android-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#00ffff"/>
+
+    <!--android:layout_gravity="center_vertical|right"表示右侧中心-->
+    <!--android:alpha="0.5"表示透明度（半透明），0-1之间-->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffff0000"
+        android:padding="30dp"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginRight="100dp"
+        android:onClick="click"
+        android:clickable="true"
+        android:visibility="visible"
+        android:alpha="0.5"
+        />
+
+</FrameLayout>

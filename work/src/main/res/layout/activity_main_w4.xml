@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+    android:shrinkColumns="0,1,2,3,4,5"
+    android:stretchColumns="0,1"-->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--第一行-->
+    <!--首先见一个4列3行的表格-->
+    <TableRow>
+
+        <!--第一行要求：喜字坐标（2，-1）-->
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="#00f"
+            android:layout_span="2"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="#0f0" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="#f00" />
+    </TableRow>
+
+
+    <!--第二行-->
+    <TableRow>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="#0f0" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="#00f" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="#f00" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="#0f0" />
+    </TableRow>
+    <!--第三行-->
+    <TableRow>
+
+        <!--痴字：（3，-2），（3，-3）-->
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="#00f" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="#f00" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="#0f0"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="#f00" />
+    </TableRow>
+</TableLayout>

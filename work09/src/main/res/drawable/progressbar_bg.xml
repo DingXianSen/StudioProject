@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item android:id="@android:id/background" android:drawable="@mipmap/a"/>-->
+    <!--<item android:id="@android:id/secondaryProgress" android:drawable="@mipmap/b"/>-->
+    <!--<item android:id="@android:id/progress" android:drawable="#0099FF"/>-->
+
+    <!--这一项我们修改背景-->
+    <item android:id="@android:id/background" android:drawable="@mipmap/a"/>
+
+    <!--这一项我们修改第二进度-->
+    <item android:id="@android:id/secondaryProgress" android:drawable="@mipmap/b"/>
+
+    <!--这一项我们修改进度-->
+    <item android:id="@android:id/progress" android:drawable="@mipmap/c"/>
+
+</layer-list>

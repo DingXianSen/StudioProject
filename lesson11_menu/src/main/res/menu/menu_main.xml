@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/bdqn"
+            android:title="北大青鸟" />
+        <item
+            android:id="@+id/ytzl"
+            android:title="云图智联">
+            <menu>
+                <!-- android:orderInCategory=""排序-->
+                <item
+                    android:id="@+id/android"
+                    android:orderInCategory="0"
+                    android:title="android" />
+                <item
+                    android:id="@+id/web_ui"
+                    android:orderInCategory="2"
+                    android:title="前段" />
+                <item
+                    android:id="@+id/java"
+                    android:orderInCategory="1"
+                    android:title="java" />
+            </menu>
+        </item>
+    </group>
+</menu>

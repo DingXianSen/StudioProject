@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lesson10_list_widget.MainActivity">
+
+    <!--选中时的颜色android:listSelector="#ff0"-->
+    <!--间隔android:divider="@mipmap/ic_launcher",间隔也可以直接使用颜色-->
+    <!--<ListView-->
+        <!--android:id="@+id/list_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:listSelector="#ff0"-->
+        <!--android:divider="#0ff"-->
+        <!--android:dividerHeight="1dp"/>-->
+
+
+    <!--自适应android:numColumns="auto_fit"-->
+    <GridView
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp">
+
+    </GridView>
+
+    <ImageView
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"/>
+</FrameLayout>

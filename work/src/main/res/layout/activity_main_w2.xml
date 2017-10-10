@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--A块:在中心-->
+    <!--android:layout_centerInParent="true" 表示在父容器中心-->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#0f0"
+        android:text="A"
+        android:textColor="#ffff"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <!--B块：在A的左上角-->
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#f00"
+        android:text="B"
+        android:textColor="#ffff"
+        android:layout_toLeftOf="@id/textView"
+        android:layout_above="@id/textView"/>
+
+    <!--C块：在B上，在A右-->
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#f00"
+        android:text="C"
+        android:textColor="#ffff"
+        android:layout_toRightOf="@id/textView"
+        android:layout_above="@id/textview1"
+        />
+    <!--D块：在右下，在A下竖向距离A50dp-->
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#f00"
+        android:text="D"
+        android:textColor="#ffff"
+        android:layout_below="@id/textView"
+        android:layout_toRightOf="@id/textView"
+        android:layout_marginTop="50dp"/>
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:text="点我进入第三个作业"/>
+</RelativeLayout>

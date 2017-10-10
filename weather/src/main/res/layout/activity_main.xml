@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Spinner
+        android:id="@+id/sp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Spinner>
+    <Spinner
+        android:id="@+id/sp2"
+        android:layout_below="@+id/sp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Spinner>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_below="@id/sp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12℃/20℃"
+        android:layout_centerHorizontal="true"
+        android:textSize="50sp"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/tv0"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="60dp"
+        android:layout_below="@id/tv"
+        android:text="今日天气实况：气温：14℃；风向/风力：东南风 1级；湿度：65%；紫外线强度：暂缺。空气质量：暂缺。"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <GridLayout
+        android:id="@+id/gl"
+        android:layout_below="@id/tv0"
+        android:orientation="horizontal"
+        android:columnCount="4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv1"
+            android:text="5月10日 晴"
+            android:layout_columnWeight="1"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_columnWeight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_columnWeight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_columnWeight="1"
+            android:textSize="18sp"
+            android:text="西北风转西南风3-4级"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:text="5月10日 晴"
+            android:layout_columnWeight="1"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/iv3"
+            android:layout_marginTop="10dp"
+            android:layout_columnWeight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/iv4"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_columnWeight="1"
+            android:textSize="18sp"
+            android:text="16℃/27℃"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:text="5月10日 晴"
+            android:layout_columnWeight="1"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/iv5"
+            android:layout_marginTop="10dp"
+            android:layout_columnWeight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/iv6"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_columnWeight="1"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:text="11℃/25℃"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </GridLayout>
+    <!--<LinearLayout-->
+    <!--android:id="@+id/ll"-->
+    <!--android:layout_below="@id/sp2"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--<ImageView-->
+    <!--android:id="@+id/iv1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<ImageView-->
+    <!--android:id="@+id/iv2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<ImageView-->
+    <!--android:id="@+id/iv3"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<ImageView-->
+    <!--android:id="@+id/iv4"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<ImageView-->
+    <!--android:id="@+id/iv5"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<ImageView-->
+    <!--android:id="@+id/iv6"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--</LinearLayout>-->
+    <!--<TextView-->
+    <!--android:id="@+id/tv"-->
+    <!--android:layout_below="@+id/ll"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" />-->
+
+</RelativeLayout>

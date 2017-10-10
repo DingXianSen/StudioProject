@@ -1,0 +1,20 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function show(value){
+            alert(value);
+        }
+        function send(){
+            document.getElementById("address").value;
+            msg=document.getElementById("body").value;
+            alert(msg);
+            sms.send(address,msg);
+        }
+    </script>
+</head>
+<body>
+    收信人地址：<input type="text" id="address" onblur="show(this.value)"><br/>
+    信息：<textarea id="body"></textarea><input type="button" onclick="send()" value="发送">
+
+</body>
+</html>

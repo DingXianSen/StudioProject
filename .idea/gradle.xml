@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="F:\android\androidStudio\android-studio\gradle\gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/lesson14_listview_json" />
+            <option value="$PROJECT_DIR$/lesson15_contentprovider" />
+            <option value="$PROJECT_DIR$/lesson17_fragment" />
+            <option value="$PROJECT_DIR$/lesson18_viewpager" />
+            <option value="$PROJECT_DIR$/lesson20_handler" />
+            <option value="$PROJECT_DIR$/lesson21_actionbar" />
+            <option value="$PROJECT_DIR$/lesson24_service" />
+            <option value="$PROJECT_DIR$/lesson25_recyclerview" />
+            <option value="$PROJECT_DIR$/lesson26_webview" />
+            <option value="$PROJECT_DIR$/lesson27_refresh" />
+            <option value="$PROJECT_DIR$/lesson28_xutils3" />
+            <option value="$PROJECT_DIR$/lesson29_baidumap" />
+            <option value="$PROJECT_DIR$/lesson30_drowview" />
+            <option value="$PROJECT_DIR$/lesson31_view_size_location" />
+            <option value="$PROJECT_DIR$/lesson33_okhttp3" />
+            <option value="$PROJECT_DIR$/lesson34_fresco" />
+            <option value="$PROJECT_DIR$/lesson35_media" />
+            <option value="$PROJECT_DIR$/lesson36_jpush" />
+            <option value="$PROJECT_DIR$/lesson37_share" />
+            <option value="$PROJECT_DIR$/lesson38_crypto" />
+            <option value="$PROJECT_DIR$/lesson39_other_jar" />
+            <option value="$PROJECT_DIR$/lesson40_pay" />
+            <option value="$PROJECT_DIR$/lesson40_pay2" />
+            <option value="$PROJECT_DIR$/login" />
+            <option value="$PROJECT_DIR$/ptr-lib" />
+            <option value="$PROJECT_DIR$/work07" />
+            <option value="$PROJECT_DIR$/work14" />
+            <option value="$PROJECT_DIR$/work16" />
+            <option value="$PROJECT_DIR$/work18_2" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

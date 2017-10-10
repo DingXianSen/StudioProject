@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lesson31_view_size_location.MainActivity">
+
+    <!--<com.example.lesson31_view_size_location.VerticalView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="#00ff00">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="fasdfasdfsad" />-->
+
+    <!--<Button-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="fffffffffffffffffffffffffff" />-->
+
+    <!--<Button-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="ggggggggggggggggggggggg" />-->
+
+    <!--<Button-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="gggggggggggg" />-->
+    <!--</com.example.lesson31_view_size_location.VerticalView>-->
+
+    <!--&lt;!&ndash;<com.example.lesson31_view_size_location.MyTextView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:background="#00ff00" />&ndash;&gt;-->
+    <com.example.lesson31_view_size_location.MyEdit
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mHint="输入手机号"
+        app:mTextColor="#ff0000"
+        app:mTextSize="18sp"
+        app:maxLength="11" />
+
+    <com.example.lesson31_view_size_location.MyEdit
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mInputType="password"
+        app:maxLength="20" />
+</LinearLayout>

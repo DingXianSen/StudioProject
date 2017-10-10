@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--上部的背景颜色-->
+    <attr name="top_bg" format="color"></attr>
+    <!--注意不能和已有的重名，不会会有异常-->
+    <!--消息的背景颜色-->
+<attr name="font" format="color"/>
+
+    <!--下部分背景-->
+<attr name="bom_bg" format="color"></attr>
+    <!--夜间模式字体-->
+    <attr name="ye_font" format="color"></attr>
+    </resources>

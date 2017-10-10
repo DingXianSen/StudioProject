@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<in.srain.cube.views.ptr.PtrClassicFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ptr_refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:ptr_mode="both"
+    app:ptr_duration_to_close_header="3000"
+    app:ptr_duration_to_close_footer="1000"
+    app:ptr_ratio_of_header_height_to_refresh="1.7"
+    app:ptr_resistance="2"
+    app:ptr_keep_header_when_refresh="true">
+    <!--app:ptr_keep_header_when_refresh=""刷新时，是否显示头部-->
+    <!--app:ptr_resistance=""阻尼率，下拉难度-->
+    <!--app:ptr_ratio_of_header_height_to_refresh=""比率，下拉头部多少倍的时候触发刷新-->
+    <!--app:ptr_mode="both"模式，刷新，加载更多。。。-->
+
+    <include layout="@layout/layout_recycler"/>
+</in.srain.cube.views.ptr.PtrClassicFrameLayout>

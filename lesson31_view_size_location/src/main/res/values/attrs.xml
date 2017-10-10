@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyEdit">
+        <attr name="mTextSize" format="dimension" /><!--表示只能设置尺寸值-->
+        <attr name="mTextColor" format="color" />
+        <attr name="mHint" format="string" />
+        <attr name="mText" format="string" />
+        <attr name="maxLength" format="integer" />
+        <!--枚举-->
+        <attr name="mInputType" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="number" value="1" />
+            <enum name="password" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

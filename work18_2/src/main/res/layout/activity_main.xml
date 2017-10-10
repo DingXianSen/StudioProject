@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="com.example.work18_2.MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rg2"/>
+
+    <RadioGroup
+        android:id="@+id/rg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/info"
+            style="@style/rb"
+            android:checked="true"
+            android:drawableTop="@drawable/selector_info"
+            android:text="消息" />
+
+        <RadioButton
+            android:id="@+id/constact"
+            style="@style/rb"
+            android:drawableTop="@drawable/selector_constact"
+            android:text="联系人" />
+
+        <RadioButton
+            android:id="@+id/active"
+            style="@style/rb"
+            android:drawableTop="@drawable/selector_active"
+            android:text="活动" />
+    </RadioGroup>
+
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <!--listView的样式-->
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="2" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_weight="3">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="6dp"
+            android:text="VR/AR全景视频影视后期"
+            android:textSize="15sp"/>
+        <!--课时-->
+        <TextView
+            android:id="@+id/tv_classhour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:padding="6dp"
+            android:layout_below="@id/tv_title"
+            android:text="课时14"/>
+        <!--免费-->
+        <TextView
+            android:id="@+id/tv_mianfei"
+            android:layout_width="wrap_content"
+            android:textSize="10sp"
+            android:padding="6dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_classhour"
+            android:text="免费"/>
+        <!--本校-->
+        <TextView
+            android:id="@+id/tv_school"
+            android:layout_width="wrap_content"
+            android:textSize="10sp"
+            android:padding="6dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_mianfei"
+            android:text="本校"/>
+
+    </RelativeLayout>
+</LinearLayout>

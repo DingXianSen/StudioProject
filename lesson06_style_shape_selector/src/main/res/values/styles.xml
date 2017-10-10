@@ -1,0 +1,70 @@
+<resources>
+
+    <style name="sss" parent="@android:style/Theme.Holo.Light.Dialog"></style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--标题栏-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--状态栏-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--系统中，子空间，复选框，单选按钮，选中时的颜色-->
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <!--窗体的背景色-->
+        <item name="android:windowBackground">@android:color/white</item>
+
+        <!--窗体无标题栏-->
+        <item name="windowNoTitle">true</item>
+        <!--无actionbar-->
+        <item name="windowActionBar">false</item>
+        <!--取消状态栏,也就是全屏显示-->
+        <item name="android:windowFullscreen">true</item>
+
+        <!--给刚才定义的attrs赋值-->
+        <item name="bg">#cdcdcd</item>
+        <!--<item name="radioButtonStyle">@style/bottom_bar_rb</item>-->
+    </style>
+
+
+    <!--需要注意的是，不能有空格，值不用引号-->
+    <style name="bottom_bar_rb">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/selector_bar_font_1</item>
+    </style>
+
+    <!--第二种样式-->
+    <style name="AppTheme_Night" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--标题栏-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--状态栏-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--系统中，子空间，复选框，单选按钮，选中时的颜色-->
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <!--窗体的背景色-->
+        <item name="android:windowBackground">@color/light_black</item>
+
+        <!--窗体无标题栏-->
+        <item name="windowNoTitle">true</item>
+        <!--无actionbar-->
+        <item name="windowActionBar">false</item>
+        <!--取消状态栏,也就是全屏显示-->
+        <item name="android:windowFullscreen">true</item>
+        <item name="bg">#000</item>
+
+        <!--给刚才定义的attrs赋值-->
+        <!--<item name="radioButtonStyle">@style/bottom_bar_rb</item>-->
+    </style>
+</resources>

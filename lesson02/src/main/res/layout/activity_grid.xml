@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3">
+
+    <!--让其跨列-->
+    <!--android:layout_columnSpan="2"-->
+    <FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#00f"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"/>
+
+    <FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#0f0" />
+
+    <!--让其跨行-->
+    <!--android:layout_gravity="center" 如果加入这句话，改动大，将占整个右边-->
+    <FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#f00"
+        android:layout_rowSpan="2"
+        />
+
+    <FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#ff0" />
+
+    <!--让其改变到0行0列-->
+    <!--
+        android:layout_column="0"
+        android:layout_row="0"-->
+    <FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#0ff" />
+
+    <FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#f0f" />
+
+
+</GridLayout>

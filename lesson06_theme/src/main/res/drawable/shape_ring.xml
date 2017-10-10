@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--环形-->
+    <!--固定值，好处，固定大小不变，但是不能根据控件大小变化-->
+<!--android:innerRadius="" 内环半径
+    android:thickness="" 环厚度-->
+<!--**** android:useLevel="false"必须为false，默认为true，为false时显示*****-->
+
+<!--比例
+    android:innerRadiusRatio=""
+    android:thicknessRatio=""-->
+<!--控件的宽度/5，内环的半径 控件的宽度/7，环厚度-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="ring"
+    android:innerRadiusRatio="5"
+    android:thicknessRatio="7"
+    android:useLevel="false">
+    <solid
+        android:color="@color/colorAccent"/>
+</shape>

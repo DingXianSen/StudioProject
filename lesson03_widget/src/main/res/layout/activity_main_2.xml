@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textviewtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="平时喜欢做什么事情？" />
+
+    <CheckBox
+        android:id="@+id/checkboxall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textviewtitle"
+        android:layout_alignTop="@id/textviewtitle"
+        android:layout_toRightOf="@id/textviewtitle"
+        android:text="全选" />
+    <!--内容的CheckBox-->
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textviewtitle"
+        android:layout_marginRight="80dp"
+        android:text="玩游戏" />
+
+    <CheckBox
+        android:id="@+id/checkbox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textviewtitle"
+        android:layout_toRightOf="@+id/checkbox1"
+        android:text="学习" />
+
+    <CheckBox
+        android:id="@+id/checkbox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkbox1"
+        android:text="敲代码" />
+
+    <CheckBox
+        android:id="@+id/checkbox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkbox2"
+        android:layout_toRightOf="@+id/checkbox1"
+        android:text="跑步" />
+
+    <CheckBox
+        android:id="@+id/checkbox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkbox3"
+        android:text="游泳" />
+
+    <CheckBox
+        android:id="@+id/checkbox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkbox4"
+        android:layout_toRightOf="@+id/checkbox1"
+        android:text="睡觉" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkbox5"
+        android:layout_marginTop="20dp"
+        android:text="已选择："/>
+</RelativeLayout>
